@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Bank-Management-System
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bms  
+eureka:
+  client:
+    fetch-registry: false
+    service-url:
+      default-zone: http://localhost:8761/eureka;   
+server.port: 8095
+     
